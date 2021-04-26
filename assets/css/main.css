@@ -134,7 +134,7 @@ input, select, textarea {
 		margin: 0 0 2.25em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h5, h6 {
 		color: #0C3474;
 		font-family: 'Oswald', sans-serif;
 		font-weight: 500;
@@ -157,11 +157,17 @@ input, select, textarea {
 	h3 {
 		font-size: 1.75em;
 		line-height: 1.5em;
+		color: #E63946 !important;
 	}
 
 	h4 {
+		font-family: 'Roboto', sans-serif;
+		color:  #0C3474;
+		font-weight: 500;
 		font-size: 1.25em;
 		line-height: 1.5em;
+		line-height: 1em;
+		margin: 0 0 0.5625em 0;
 	}
 
 	h5 {
@@ -3318,13 +3324,3 @@ input, select, textarea {
 
 	}
 
-	/* Re alteracoes */
-
-	#logo span {
-		font-weight: 400; 
-		display:block;
-	}
-
-	.major span{
-		color: #ddd;
-	}
