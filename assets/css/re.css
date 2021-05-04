@@ -1,4 +1,4 @@
-/* Re alteracoes */
+/* Alteracoes */
 
 #logo span {
 	font-weight: 400; 
@@ -7,6 +7,33 @@
 
 .major span{
 	color: #ddd;
+}
+
+.features {
+    margin-top: 2em;
+}
+
+/* Cases Index */
+.cases-img img {
+    max-height: 82px;
+    max-width: 82px;
+    margin:auto;
+}
+
+.inner h4 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+/* .inner span {
+    margin-bottom: 0.5em;
+    font-size: 1em;
+} */
+
+.inner p {
+    color: #aaa;
+    margin: 1em 0;
 }
 
 /* Bio Timeline */

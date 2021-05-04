@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/re.css" />
+		<link rel="stylesheet" href="assets/css/cases.css" />
 
 		<title>Renata de Freitas</title>
 		<meta name="description" content="Portfolio e site pessoal da Renata Freitas.">
@@ -37,11 +38,11 @@
 			<nav id="nav">
 				<ul>
 					<li><a href="#one" class="active">Sobre</a></li>
-					<!-- <li><a href="#two">Habilidades</a></li> -->
-					<li><a href="#three">Alguns trabalhos</a></li>
-					<li><a href="#four">Bio</a></li>
-					<li><a href="#five">CV (Experiências Profissionais)</a></li>
-					<li><a href="#six">CV + Bio</a></li>
+					<li><a href="#two">Alguns trabalhos - Img</a></li>
+					<li><a href="#six">Alguns trabalhos - Link</a></li>
+					<li><a href="#three">Bio</a></li>
+					<li><a href="#four">CV (Experiências Profissionais)</a></li>
+					<li><a href="#five">CV + Bio</a></li>
 				</ul>
 			</nav>
 			<footer>
@@ -76,56 +77,75 @@
 				</section>
 
 				<!-- Two -->
-				<!-- <section id="two">
+				<section id="two">
 					<div class="container">
-						<h3>O que eu sei fazer</h3>
-						<p>Ao longo dos anos adquiri diversos conhecimentos em diferentes áreas, alguns deles são:.</p>
-						<ul class="feature-icons">
-							<li class="icon solid fa-brain">Design Thinking</li>
-							<li class="icon solid fa-code-branch">Gestão de StakeHolders</li>
-							<li class="icon solid fa-clipboard">Métodos Quali de Pesquisa</li>
-							<li class="icon solid fa-chart-pie">Métodos Quanti</li>
-							<li class="icon solid fa-bolt">Pensamento Lean</li>
-							<li class="icon solid fa-dragon">Algo pra fechar 6</li>
-						</ul>
-						<p>Alguns estudos na área de tecnologia no meu <a href="http://github.com/reldefreitas/" target="_blank">GitHub</a></p>
-					</div>
-				</section> -->
-
-				<!-- Three -->
-				<section id="three">
-					<div class="container">
-						<h3>Alguns trabalhos</h3>
+						<h3>Alguns trabalhos - Modal com Img</h3>
 						<div class="features">
 							<article>
-								<a href="#" class="image"><img src="https://miro.medium.com/max/700/1*858djyFNL7Uaw40QQmUwOg.png" alt="" /></a>
+								<a href="#case-arvore-img" class="image"><img src="https://miro.medium.com/max/700/1*858djyFNL7Uaw40QQmUwOg.png" alt="" /></a>
 								<div class="inner">
-									<h4>A Colheita do Otto - 2° Lugar no MegaHackWomen 2020</h4>
-									<p>Como incentivar a leitura em crianças de 5 a 8 anos? Com esse desafio, desenvolvemos uma feature gameficada para o app Árvore. Nela as crianças, eram incentivadas a ler junto com os seus familiares e gravar o áudio da sessão (página a página) para poderem ouvir sozinhas mais tarde. <br />
-									Primeiro Lugar no Desafio Árvore e Segundo Lugar Geral no MegahackWomen 2020 promovido pela Shawee.
-									</p>
+									<h4>A Colheita do Otto</h4>
+									<p>2° Lugar no MegaHackWomen 2020</p>
+									<a href="#case-arvore-img">Clique e saiba mais.</a>
+								</div>
+							</article>
+							<!-- Modal Arvore Inicio -->
+							<div id="case-arvore-img" class="modal-img">
+								<div>
+									<img src="images/cases/arvore.png" class="image" alt="Canvas do case da árvore" />
+									<a href="#ok" class="modal-ok" title="Ok">Ok</a>
+								</div>
+							</div>
+								<!-- Fim modal -->
+							<article>
+								<a href="#case-3dnow-img" class="image"><img src="images/3dnow.png" alt="" /></a>
+								<div class="inner">
+									<h4>3DNow</h4>
+									<p>Customer Discovery e Modelagem de Negócios</p>
+									<a href="#case-3dnow-img">Clique e saiba mais.</a>
+								</div>
+							</article>
+							<!-- Modal 3DNow Inicio -->
+							<div id="case-3dnow-img" class="modal-img">
+								<div>
+									<img src="images/cases/3DNow.png" class="image" alt="Canvas do case do 3DNow" />
+									<a href="#ok" class="modal-ok" title="Ok">Ok</a>
+								</div>
+							</div>
+								<!-- Fim modal -->
+						</div>
+					</div>
+				</section>
+
+				<!-- Six -->
+				<section id="six">
+					<div class="container">
+						<h3>Alguns trabalhos - Link</h3>
+						<div class="features">
+							<article>
+								<a href="./case-arvore.html" class="image cases-img"><img src="/images/cases/arvore-logo.png" alt="Logo Árvore de Livros" /></a>
+								<div class="inner">
+									<h4>A Colheita do Otto</h4>
+									<span>Desenvolvimento de MVP</span>
+									<p>Audioteca para impulsionar a leitura em crianças | 2° Lugar no MegaHackWomen 2020</p>
+									<a href="./case-arvore.html">Conheça mais detalhes.</a>
 								</div>
 							</article>
 							<article>
-								<a href="#" class="image"><img src="images/3dnow.png" alt="" /></a>
+								<a href="./case-3dnow.html" class="image cases-img"><img src="images/3dnow.png" alt="Logo 3DNow" /></a>
 								<div class="inner">
-									<h4>3DNow - Customer Discovery, Modelagem de Negócios e Go to Market</h4>
-									<p>Serviço de Impressão 3D sob demanda, cliente queria começar a produzir e vender produtos próprios. Realizamos estudo de mercado e pesquisas para determinação de nicho e segmento, bem como, teste de protótipos de modelos. Ao final construímos um plano de Go to Market que infelizmente não foi implementado, pois ocorreria em abril 2020 junto a pandemia. O lançamento foi adiado indefinidamente.</p>
-								</div>
-							</article>
-							<article>
-								<a href="#" class="image"><img src="images/bookbinge.png" alt="" /></a>
-								<div class="inner">
-									<h4>BookBinge - Discovery de Produto e protótipo (Awari) </h4>
-									<p>Projeto final do curso de Product Management da Awari. Desenvolvimento de um app para incentivar a leitura, desenvolvendo comunidades com base em atividades em grupo.</p>
+									<h4>3DNow</h4>
+									<span>Customer Discovery e Modelagem de Negócios</span>
+									<p>Eccomerce de produtos de cultura pop impressos em 3D</p>
+									<a href="./case-arvore.html">Conheça mais detalhes.</a>
 								</div>
 							</article>
 						</div>
 					</div>
 				</section>
 
-				<!-- Four -->
-				<section id="four">
+				<!-- Three -->
+				<section id="three">
 					<div class="container">
 						<h3>Bio</h3>
 						<div id="timeline">
@@ -142,8 +162,8 @@
 					</div>
 				</section>
 
-				<!-- Five -->
-				<section id="five">
+				<!-- Four -->
+				<section id="four">
 					<div class="container">
 						<h3>CV (Experiências Profissionais)</h3>
 						<div id="cvExp">
@@ -185,8 +205,8 @@
 					</div>
 				</section>
 
-				<!-- Six -->
-				<section id="six">
+				<!-- Five -->
+				<section id="five">
 					<div class="container">
 						<h3>CV + Bio</h3>
 						<div class="cvCard">
